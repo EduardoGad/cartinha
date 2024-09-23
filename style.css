@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo neutra */
+    color: #333; /* Cor do texto */
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff; /* Fundo branco para destacar o texto */
+    padding: 40px;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 600px; /* Largura máxima do conteúdo */
+    width: 100%; /* Ocupa todo o espaço disponível */
+}
+
+#desabafo-text {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+    color: #444; /* Texto mais escuro para melhor legibilidade */
+}
+
+p {
+    margin-bottom: 20px; /* Espaço entre os parágrafos */
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px; /* Ajuste do padding para telas menores */
+    }
+
+    #desabafo-text {
+        font-size: 16px; /* Ajuste do tamanho da fonte para telas menores */
+    }
+}
